@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/TTA-logo2.png" type="image/x-icon">
+    <title>Tona Tony</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body onload="onload();">
+
+    <!-- header -->
+    <header class="header">
+        <a href="index.html" class="logo">Tona Tony<!--<span id="logo-beta">Beta</span>--></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="index.html" style="--i:1;">Home</a>
+            <a href="about.html" style="--i:2;">About</a>
+            <a href="skills.html" style="--i:3;">Skills & Merits</a>
+            <a href="contact.html" style="--i:4;"  class="active">Contact</a>
+
+            <div class="mode-box" onclick="darkmode();">
+                <!--<img  src="moon.png" id="modeIcon"></img>-->
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- contact design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <p>To contact me, you can fill and submit the form below.<br>
+        (You can expect a response within 5 working days or you can reach out to me through my socials by clicking the buttons below.)</p>
+        <div class="home-sci"><a href="https://x.com/tona_tony1?t=LH_f2FmKedekxfildHldpA&s=09" target="_blank" rel="noopener" rel="noreferrer" style="--i:7;"><i class='bx bxl-twitter' ></i></a></div>
+
+    <form action="https://formspree.io/f/mpzgqkwj" method="POST">
+            <h2>Contact Form</h2>
+            <div class="input-box">
+                <div class="input-field">
+                    <input name="Name" type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input name="Address" type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input name="Number" type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input name="Subject" type="text" placeholder="Subject / Motive" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="Message" id="Message" cols="30" rows="10" placeholder="your message" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button types="submit" class="btn">Submit</button>
+            </div>
+    </form>
+    </section>
+
+    <!-- Footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Tona Tony Arsène &copy; 2024</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="https://x.com/tona_tony1?t=LH_f2FmKedekxfildHldpA&s=09" target="_blank" rel="noopener" rel="noreferrer" style="--i:7;"><i class='bx bxl-twitter' ></i></a>
+            <a href="contact.html" target="_self" rel="noopener" rel="noreferrer" style="--i:6;"><i class='bx bxs-envelope' ></i></a>
+            <a href="#"><i class='bx bxs-chevrons-up' ></i></a>
+        </div>
+    </footer>
+    
+    <!-- typed js-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- custom js-->
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
