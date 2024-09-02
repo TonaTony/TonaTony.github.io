@@ -32,7 +32,7 @@ body:not(.dark-mode) {
     --toggle-color: #000000;
     --footer-color:#000000;
     --footer-txt-color: #ededed;
-    --mode-bg: url(images/moon.png);
+    --mode-bg: url(/images/moon.png);
 }
 
 /*.light-mode {
@@ -49,7 +49,7 @@ body:not(.dark-mode) {
     --toggle-color: #000000;
     --footer-color:#000000;
     --footer-txt-color: #ededed;
-    --mode-bg: url(images/sun.png);
+    --mode-bg: url(/images/sun.png);
 }
 
 .header {
@@ -461,10 +461,10 @@ section {
 }
 
 .card1 {
-    background-image: url(images/pha1.png);
+    background-image: url(/images/pha1.png);
 }
 .card2 {
-    background-image: url(images/pha2.png);
+    background-image: url(/images/pha2.png);
 }
 
 .projects p {
